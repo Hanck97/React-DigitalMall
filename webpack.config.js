@@ -21,7 +21,12 @@ module.exports = {
             {
                 test:/\.(png|jpg|gif|bmp)$/,
                 use:'url-loader'
-            }
+            },
+            {
+                 test: /\.(otf|eot|svg|ttf|woff|woff2).*$/,
+                 loader: 'url-loader'
+             }
+
         ]
     },
     plugins: [

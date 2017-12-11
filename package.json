@@ -1,13 +1,13 @@
 {
-  "name": "Digital-Mall",
+  "name": "DigitalMall",
   "version": "1.0.0",
-  "description": "webapp",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open"
   },
   "keywords": [],
-  "author": "hancock",
+  "author": "Hancock",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
